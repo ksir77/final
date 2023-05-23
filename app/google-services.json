@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "658462286178",
+    "firebase_url": "https://exchanger-3330c-default-rtdb.firebaseio.com",
+    "project_id": "exchanger-3330c",
+    "storage_bucket": "exchanger-3330c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658462286178:android:4da08e4a03d1f275b8cc3b",
+        "android_client_info": {
+          "package_name": "com.example.exchanger4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658462286178-s8u533n1d7i8jk46tkjr9dukg1d5vf8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB54yA3LHlww9DyO-Pg2jfoJ4-yncNcVBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658462286178-s8u533n1d7i8jk46tkjr9dukg1d5vf8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

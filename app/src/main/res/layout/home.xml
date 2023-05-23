@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Здесь поместите вашу существующую разметку -->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="КУРСЫ ВАЛЮТ "
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:id="@+id/price_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/title_text"
+                android:layout_marginTop="0dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="покупка" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="валюта" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="продажа" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/price_body"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="17dp"
+                android:background="@drawable/price_body_radius"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_below="@+id/price_body"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/purchasePriceTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="40dp"
+                    android:text="447" />
+
+                <TextView
+                    android:id="@+id/currencyNameTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="USD" />
+
+                <TextView
+                    android:id="@+id/salePriceTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="451" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/price_body1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="17dp"
+                android:background="@drawable/price_body_radius"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_below="@+id/price_body"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/purchasePriceTextView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="40dp"
+                    android:text="483.5" />
+
+                <TextView
+                    android:id="@+id/currencyNameTextView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="EUR" />
+
+                <TextView
+                    android:id="@+id/salePriceTextView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="488.5" />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/price_body2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="17dp"
+                android:background="@drawable/price_body_radius"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_below="@+id/price_body1"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/purchasePriceTextView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="40dp"
+                    android:text="5.45" />
+
+                <TextView
+                    android:id="@+id/currencyNameTextView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="RUB" />
+
+                <TextView
+                    android:id="@+id/salePriceTextView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="5.75" />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/price_body4"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="17dp"
+                android:background="@drawable/price_body_radius"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_below="@+id/price_body2"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/purchasePriceTextView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="40dp"
+                    android:text="5.05" />
+
+                <TextView
+                    android:id="@+id/currencyNameTextView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:text="KGS"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/salePriceTextView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="5.55" />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/price_body3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="17dp"
+                android:background="@drawable/price_body_radius"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_below="@+id/price_body2"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/purchasePriceTextView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="40dp"
+                    android:text="28000" />
+
+                <TextView
+                    android:id="@+id/currencyNameTextView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:text="GOLD"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/salePriceTextView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="28850" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/price_body3"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/crypto_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="КУРСЫ КРИПТОВАЛЮТ"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/crypto_prices"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/price_body_radius"
+                    android:layout_below="@+id/crypto_head"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+
+                    <ImageView
+                        android:layout_width="43dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:src="@drawable/bitcoin" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="BTC"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="end"
+                        android:text="30 000$"
+                        android:textColor="@color/white" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/crypto_prices1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/price_body_radius"
+                    android:layout_below="@+id/crypto_head"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+
+                    <ImageView
+                        android:layout_width="43dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:src="@drawable/icons8_tether__1__1" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="USDT"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+
+                        android:gravity="end"
+                        android:text="0.99$"
+                        android:textColor="@color/white" />
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/crypto_prices2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/price_body_radius"
+                    android:layout_below="@+id/crypto_head"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+
+                    <ImageView
+                        android:layout_width="43dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:src="@drawable/eth" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="ETH"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="end"
+                        android:text="1980$"
+                        android:textColor="@color/white" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/crypto_prices4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/price_body_radius"
+                    android:layout_below="@+id/crypto_head"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+
+                    <ImageView
+                        android:layout_width="43dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:src="@drawable/solana" />
+
+                    <TextView
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="SOL"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="end"
+                        android:text="15$"
+                        android:textColor="@color/white" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/crypto_prices5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/price_body_radius"
+                    android:layout_below="@+id/crypto_head"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:background="@drawable/bottom_nav">
+
+        <LinearLayout
+            android:id="@+id/rates_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/rates_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/courses"/>
+
+            <TextView
+                android:id="@+id/rates_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Курсы"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/order_amount_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/order_amount_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/order"/>
+
+            <TextView
+                android:id="@+id/order_amount_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Заказ суммы"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reservation_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/reservation_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/lock"/>
+
+            <TextView
+                android:id="@+id/reservation_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Бронь"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/notifications_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/notifications_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/notification"/>
+
+            <TextView
+                android:id="@+id/notifications_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Уведомления"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contacts_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/contacts_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/contacts"/>
+
+            <TextView
+                android:id="@+id/contacts_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Контакты"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exchanger4</string>
+
+    <string-array name="currencies">
+        <item>USD</item>
+        <item>KZT</item>
+        <item>RUB</item>
+    </string-array>
+    <string name="default_currency">USD</string>
+
+</resources>

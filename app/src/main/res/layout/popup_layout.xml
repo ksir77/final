@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Здесь разместите содержимое вашего всплывающего окна -->
+
+
+
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="250dp"
+        android:background="@drawable/price_body_radius"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/zapolni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center_horizontal"
+            android:text="ЗАПОЛНИТЕ ДАННЫЕ"
+            android:textColor="@color/white"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center_horizontal"
+            android:text="Введите ваш номер телефона"
+            android:textColor="@color/white"
+            android:textSize="12dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_form"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="+7 747 488 2655"
+            android:textSize="11dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center_horizontal"
+            android:text="Выберите дату и время"
+            android:textColor="@color/white"
+            android:textSize="12dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_form"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="20:30           27.05.2023"
+            android:textSize="11dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bron"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="ОТПРАВИТЬ"
+            android:textColor="@color/white"></TextView>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
